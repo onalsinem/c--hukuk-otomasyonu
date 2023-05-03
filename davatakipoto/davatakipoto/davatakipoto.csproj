@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D1146CB-347A-4CB3-ABE7-4A7BB8D86342}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>davatakipoto</RootNamespace>
+    <AssemblyName>davatakipoto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="avukat ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="avukat ekle.Designer.cs">
+      <DependentUpon>avukat ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAVACI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAVACI.Designer.cs">
+      <DependentUpon>DAVACI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="davalı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="davalı.Designer.cs">
+      <DependentUpon>davalı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="davanedeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="davanedeni.Designer.cs">
+      <DependentUpon>davanedeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="davasalonu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="davasalonu.Designer.cs">
+      <DependentUpon>davasalonu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="davatakipotomasayonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>davatakipotomasayonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hakimekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakimekleme.Designer.cs">
+      <DependentUpon>hakimekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hakimkontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakimkontrol.Designer.cs">
+      <DependentUpon>hakimkontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hakimtür.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakimtür.Designer.cs">
+      <DependentUpon>hakimtür.cs</DependentUpon>
+    </Compile>
+    <Compile Include="konu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="konu.Designer.cs">
+      <DependentUpon>konu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="savcıkontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="savcıkontrol.Designer.cs">
+      <DependentUpon>savcıkontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="savcıseçim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="savcıseçim.Designer.cs">
+      <DependentUpon>savcıseçim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="davatakipotomasayonuDataSet.xsc">
+      <DependentUpon>davatakipotomasayonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="davatakipotomasayonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>davatakipotomasayonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="davatakipotomasayonuDataSet.xss">
+      <DependentUpon>davatakipotomasayonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="avukat ekle.resx">
+      <DependentUpon>avukat ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAVACI.resx">
+      <DependentUpon>DAVACI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="davalı.resx">
+      <DependentUpon>davalı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="davanedeni.resx">
+      <DependentUpon>davanedeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="davasalonu.resx">
+      <DependentUpon>davasalonu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakimekleme.resx">
+      <DependentUpon>hakimekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakimkontrol.resx">
+      <DependentUpon>hakimkontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakimtür.resx">
+      <DependentUpon>hakimtür.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="konu.resx">
+      <DependentUpon>konu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="savcıkontrol.resx">
+      <DependentUpon>savcıkontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="savcıseçim.resx">
+      <DependentUpon>savcıseçim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
