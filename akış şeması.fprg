@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="proje fikri"/>
+        <attribute name="authors" value="onals"/>
+        <attribute name="about" value="proje fikri belirlenmesi&#13;&#10;"/>
+        <attribute name="saved" value="2023-05-05 12:35:39 &#214;&#214;"/>
+        <attribute name="created" value="b25hbHM7REVTS1RPUC1KUVZSUDA3OzIwMjMtMDUtMDQ7MDU6NDc6MDIgw5ZTOzMwNDg="/>
+        <attribute name="edited" value="b25hbHM7REVTS1RPUC1KUVZSUDA3OzIwMjMtMDUtMDU7MTI6MzU6Mzkgw5bDljs0OzMyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="string" expression="proje fikri belirlenmesi"/>
+            <assign variable="string" expression="proje tasarimi"/>
+            <assign variable="string" expression="veritaban&#305; tasar&#305;m&#305;"/>
+            <assign variable="string" expression="avukat, hakim savc&#305; giri&#351; ekran&#305; yap&#305;m&#305;"/>
+            <assign variable="string" expression="avukat, hakim savc&#305; giri&#351; ekran&#305; kod k&#305;sm&#305; yaz&#305;m&#305;"/>
+            <assign variable="string" expression="avukat kontrol&#252;nde olan g&#246;revlern ekran tasar&#305;m&#305;"/>
+            <assign variable="string" expression="avukat kontrol&#252;nde olan g&#246;revlern kod k&#305;sm&#305;n&#305;n yaz&#305;m&#305;"/>
+            <assign variable="string" expression="hakim kontrol&#252;nde olan g&#246;revlern ekran tasar&#305;m&#305;"/>
+            <assign variable="string" expression="hakim kontrol&#252;nde olan g&#246;revlern kod k&#305;sm&#305;n&#305;n yaz&#305;m&#305;"/>
+            <assign variable="string" expression="savc&#305; kontrol&#252;nde olan g&#246;revlern ekran tasar&#305;m&#305;"/>
+            <assign variable="string" expression="savc&#305; kontrol&#252;nde olan g&#246;revlern kod k&#305;sm&#305;n&#305;n yaz&#305;m&#305;"/>
+            <assign variable="string" expression="projenin &#231;al&#305;&#351;t&#305;r&#305;lmas&#305;"/>
+            <assign variable="string" expression="proje dosyas&#305;n&#305;n githuba y&#252;klenmesi"/>
+        </body>
+    </function>
+</flowgorithm>
